@@ -1,0 +1,13 @@
+version: '3'
+services: 
+  
+  csd:
+    image: csd_app:v2
+    ports:
+     - 80:80
+    networks: 
+     - internal-container-network
+ 
+networks:
+ internal-container-network:
+  driver: bridge

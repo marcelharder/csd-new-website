@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="card">
+    <div class="card header" style="background-color:antiquewhite;">
+      <h4><span class="badge bg-primary m-2 mt-3">Waitinglist</span></h4>
+    </div>
+    <div class="card body">
+      <accordion [closeOthers]="oneAtATime" [isAnimated]="true">
+        <accordion-group heading="Motivation" [isOpen]="isFirstOpen">
+          This application was developed to streamline a referral for cardiac surgery. All the information
+          about the patient is presented to the surgeon. This information includes the angiogram, echo's and
+          other additional investigations that are relevant to the referral.
+          With all the information about a potential surgical case in one place, the surgeon can quickly estimate
+          the surgical risk and envisioned benefit of the surgical procedure.
+          The main benefit of this application is the significant reduction of administrative tasks that
+          accompany a referral for cardiac surgery.
+        </accordion-group>
+        <accordion-group heading="Powerpoint">
+          Click the button to see the powerpoint presentation of the waitinglist application: <button
+            class="badge bg-success" (click)="showWLPPT()">Go to the powerpoint</button>
+        </accordion-group>
+        <accordion-group heading="Demo">
+          <div class="row">
+            <div class="col-sm-12">
+              There are two sides of this application, at one side we find the physician who refers a patient to 
+              the hospital that is going to operate on the patient. On the other side we can see the heartteam 
+              in the receiving hospital that is going to establish the indication for surgery and plan the date 
+              of surgery for this patient
+            </div>
+          </div>
+          <hr/>
+          <div class="row">
+            <div class="col-sm-12">
+              You can login as a referring physician: username: joyce password: password
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              You can login as a member of the heartteam in the receiving hospital: username: megan password: password
+            </div>
+          </div>
+         
+          
+           <hr/>      
+          <div>
+           Click the button to see the application in action: <button class="badge bg-warning" (click)="showWLDemo()">Go
+           to the demo</button></div>
+        </accordion-group>
+      </accordion>
+    </div>
+    <div class="card footer">
+
+    </div>
+  </div>
+</div>
