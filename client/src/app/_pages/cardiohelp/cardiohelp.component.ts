@@ -24,7 +24,7 @@ export class CardiohelpComponent implements OnInit {
     })
   }
   showCHDemo() {
-    window.open("http://206.189.4.65:8047") 
+    window.open("https://chp.surgical-outcomes.nl") 
     }
 
 }

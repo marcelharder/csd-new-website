@@ -22,7 +22,7 @@ export class SoaComponent implements OnInit {
   }
   showSoaDemo(){
     
-    window.open("http://206.189.4.65:8086")
+    window.open("https://trac.surgical-outcomes.nl")
   
   }
   showTutorial(x: number){
