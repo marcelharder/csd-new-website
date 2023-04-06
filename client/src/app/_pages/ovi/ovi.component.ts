@@ -22,7 +22,7 @@ export class OviComponent implements OnInit {
     })
   }
   showOviDemo(){
-    window.open("http://206.189.4.65:8045")
+    window.open("https://ovi.surgical-outcomes.nl")
   }
  
 }
