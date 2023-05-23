@@ -27,8 +27,3 @@
 /home/marcel/code/csd/api/obj/Debug/net5.0/ref/api.dll
 /home/marcel/code/csd/api/obj/Debug/net5.0/api.pdb
 /home/marcel/code/csd/api/obj/Debug/net5.0/api.genruntimeconfig.cache
-/home/marcel/code/csd/api/bin/Debug/net5.0/Release/web.config
-/home/marcel/code/csd/api/bin/Debug/net5.0/Release/api.deps.json
-/home/marcel/code/csd/api/bin/Debug/net5.0/Release/api.runtimeconfig.json
-/home/marcel/code/csd/api/bin/Debug/net5.0/Release/appsettings.Development.json
-/home/marcel/code/csd/api/bin/Debug/net5.0/Release/appsettings.json

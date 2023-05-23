@@ -1,49 +1,62 @@
-<div class="container">
+<div class="container mt-5">
   <div class="card">
-    <div class="card header" style="background-color:antiquewhite;">
-      <h4><span class="badge bg-primary m-2 mt-3">Surgical Outcomes Application</span></h4>
+    <div class="card header">
+      <div class="d-flex justify-content-between bg-light" >
+        <div>
+          <h4><span class="badge bg-primary m-2 mt-3" >Surgical Outcomes Application</span></h4>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="p-2"><button class="badge bg-warning m-2 mt-1" (click)="showSoaDemo()">
+            <span class="badge bg-primary" style="font-size: small;">Direct to App</span></button></div>
+          <div class="p-2">
+            <div class="arrow bounce ml-3 mt-1"><a class="fa fa-arrow-right fa-2x" href="#"></a></div>
+          </div>
+        </div>
+      </div>
     </div>
+
+
     <div class="card body">
       <accordion [closeOthers]="oneAtATime" [isAnimated]="true">
         <accordion-group heading="Motivation" [isOpen]="isFirstOpen">
           This application is designed to measure the surgical outcomes for the individual cardiac surgeon.
           The surgeon can monitor the outcomes in real time and these data are private.
           Because this application is surgeon-centric the application has no dependencies on the
-          hospital where the surgeon works. View it as a surgical logbook with advanced capabilities. 
+          hospital where the surgeon works. View it as a surgical logbook with advanced capabilities.
         </accordion-group>
         <accordion-group heading="Powerpoint">
-          Click the button to see a Surgical Outcomes Application powerpoint presentation: <button class="badge bg-success"
-            (click)="showSoaPPT()">Go to the powerpoint</button>
+          Click the button to see a Surgical Outcomes Application powerpoint presentation: <button
+            class="badge bg-success" (click)="showSoaPPT()">Go to the powerpoint</button>
         </accordion-group>
         <accordion-group heading="Tutorials">
-           <h5><span class="badge bg-secondary m-2">
-            There are a number of tutorials that you can follow to familiarize yourself with the application. 
-           </span></h5>
-           <div class="row">
+          <h5><span class="badge bg-secondary m-2">
+              There are a number of tutorials that you can follow to familiarize yourself with the application.
+            </span></h5>
+          <div class="row">
             <div class="col-sm-6">Getting started: </div>
             <div class="col-sm-6"><button class="badge bg-success" (click)="showTutorial(1)">Go</button></div>
-           </div>
-           <div class="row">
+          </div>
+          <div class="row">
             <div class="col-sm-6">Configuration: </div>
             <div class="col-sm-6"><button class="badge bg-success" (click)="showTutorial(2)">Go</button></div>
-           </div>
-           <div class="row">
+          </div>
+          <div class="row">
             <div class="col-sm-6">Reporting: </div>
             <div class="col-sm-6"><button class="badge bg-success" (click)="showTutorial(3)">Go</button></div>
-           </div>
-           <div class="row">
+          </div>
+          <div class="row">
             <div class="col-sm-6">Statistics: </div>
             <div class="col-sm-6"><button class="badge bg-success" (click)="showTutorial(4)">Go</button></div>
-           </div>
-           <div class="row">
+          </div>
+          <div class="row">
             <div class="col-sm-6">Adding procedures: </div>
             <div class="col-sm-6"><button class="badge bg-success" (click)="showTutorial(5)">Go</button></div>
-           </div>
+          </div>
 
 
 
 
-      <!--     Statistics: https://docs.google.com/document/d/1dHpsTpBH9RNKliCNt7kXsccqMeBKDbZNZoVrK2ghpM0/edit?usp=share_link
+          <!--     Statistics: https://docs.google.com/document/d/1dHpsTpBH9RNKliCNt7kXsccqMeBKDbZNZoVrK2ghpM0/edit?usp=share_link
           Reporting: https://docs.google.com/document/d/13M-dMYMg-ikCmtFarYyxLs3S2JZY4YhsAZ2n7dLk2FA/edit?usp=share_link
           Getting sarted: https://docs.google.com/document/d/127ifGSodq6aJ0TlUikeGByjv8wKpgYmRTXVmsRiEqMg/edit?usp=share_link
           Configuration: https://docs.google.com/document/d/1vWHd47vurMdpIlmzEIG2RxPj300oX0_1gQp3e4TshJ0/edit?usp=share_link

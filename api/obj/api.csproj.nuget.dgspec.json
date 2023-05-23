@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/marcel/code/csd/api/api.csproj": {}
+    "/home/marcel/Code/csd/api/api.csproj": {}
   },
   "projects": {
-    "/home/marcel/code/csd/api/api.csproj": {
+    "/home/marcel/Code/csd/api/api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/marcel/code/csd/api/api.csproj",
+        "projectUniqueName": "/home/marcel/Code/csd/api/api.csproj",
         "projectName": "api",
-        "projectPath": "/home/marcel/code/csd/api/api.csproj",
+        "projectPath": "/home/marcel/Code/csd/api/api.csproj",
         "packagesPath": "/home/marcel/.nuget/packages/",
-        "outputPath": "/home/marcel/code/csd/api/obj/",
+        "outputPath": "/home/marcel/Code/csd/api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/marcel/.nuget/NuGet/NuGet.Config"
